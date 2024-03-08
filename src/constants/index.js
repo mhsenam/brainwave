@@ -238,7 +238,7 @@ export const pricing = [
     id: "2",
     title: "Enterprise",
     description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
+    price: "99.99",
     features: [
       "An AI chatbot that can understand your queries",
       "Personalized recommendations based on your preferences",
@@ -301,34 +301,34 @@ export const benefits = [
 ];
 
 export const socials = [
-  {
-    id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
-    url: "#",
-  },
+  // {
+  //   id: "0",
+  //   title: "Discord",
+  //   iconUrl: discordBlack,
+  //   url: "#",
+  // },
   {
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "#",
+    url: "https://twitter.com/Mhsenam",
   },
   {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "https://instagram.com/mhsenamm",
   },
   {
     id: "3",
     title: "Telegram",
     iconUrl: telegram,
-    url: "#",
+    url: "https://t.me/mhsenam",
   },
-  {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
-    url: "#",
-  },
+  // {
+  //   id: "4",
+  //   title: "Facebook",
+  //   iconUrl: facebook,
+  //   url: "#",
+  // },
 ];
