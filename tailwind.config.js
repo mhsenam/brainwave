@@ -82,7 +82,7 @@ export default {
         "benefit-card-6": "url(assets/benefits/card-6.svg)",
       },
       screens: {
-        'xs': '530px',
+        'xs': '280px',
         // => @media (min-width: 992px) { ... }
       },
     },

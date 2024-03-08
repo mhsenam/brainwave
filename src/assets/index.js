@@ -75,6 +75,13 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
+import comp1 from './comp1.svg';
+import comp2 from './comp2.svg';
+import comp3 from './comp3.svg';
+import comp4 from './comp4.svg';
+import comp5 from './comp5.svg';
+import comp6 from './comp6.svg';
+
 export {
   brainwave,
   check,
@@ -144,4 +151,10 @@ export {
   instagram,
   telegram,
   twitter,
+  comp1,
+  comp2,
+  comp3,
+  comp4,
+  comp5,
+  comp6
 };
