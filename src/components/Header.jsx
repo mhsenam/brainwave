@@ -7,11 +7,12 @@ import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
 import { HambugerMenu } from "./design/Header";
 import { useState } from "react";
+import { locals } from "../constants";
 
 const Header = () => {
   const pathname = useLocation();
   const [openNavigation, setOpenNavigation] = useState(false);
-
+  const [language, setlanguage] = useState("en");
   const toggleNavigation = () => {
     if (openNavigation) {
       setOpenNavigation(false);
@@ -28,6 +29,14 @@ const Header = () => {
     setOpenNavigation(false);
   };
 
+  const languageToggle = () => {
+    if (language === "en") {
+      setlanguage("fa");
+    } else {
+      setlanguage("en");
+    }
+    console.log(language);
+  };
   return (
     <div
       className={`fixed top-0 left-0 w-full z-50  border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${
@@ -72,6 +81,9 @@ const Header = () => {
         >
           New account
         </a>
+        <Button className="hidden lg:flex mx-3" white onClick={languageToggle}>
+          Language
+        </Button>
         <Button className="hidden lg:flex" href="#login">
           Sign in
         </Button>

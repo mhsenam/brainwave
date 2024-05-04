@@ -7,8 +7,6 @@ import {
   chromecast,
   disc02,
   discord,
-  discordBlack,
-  facebook,
   figma,
   file02,
   framer,
@@ -39,6 +37,7 @@ import {
   comp4,
   comp5,
   comp6,
+  github,
 }
   from "../../src/assets";
 
@@ -300,13 +299,22 @@ export const benefits = [
   },
 ];
 
+export const locals = [
+  {
+    lang: "en"
+  },
+  {
+    lang: "fa"
+  }
+]
+
 export const socials = [
-  // {
-  //   id: "0",
-  //   title: "Discord",
-  //   iconUrl: discordBlack,
-  //   url: "#",
-  // },
+  {
+    id: "0",
+    title: "Github",
+    iconUrl: github,
+    url: "https://github.com/mhsenam/brainwave",
+  },
   {
     id: "1",
     title: "Twitter",
